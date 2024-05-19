@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Animated Input</title>
+  </head>
+
+  <body>
+    <form class="form">
+      <div class="input-control">
+        <input type="text" name="name" autocomplete="off" required />
+        <label for="name" class="label-name">
+          <span class="content-name">Name</span>
+        </label>
+      </div>
+      <button class="btn" type="submit">Submit</button>
+    </form>
+
+    <script>
+      document.querySelector(".input-control input").focus();
+    </script>
+  </body>
+</html>
